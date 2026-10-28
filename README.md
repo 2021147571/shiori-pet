@@ -9,13 +9,13 @@
 **Windows：**打开 PowerShell，粘贴运行：
 
 ```powershell
-irm 'https://raw.githubusercontent.com/2021147571/shiori-pet/main/install.ps1?v=2' | iex
+irm https://raw.githubusercontent.com/2021147571/shiori-pet/95889fd/install.ps1 | iex
 ```
 
 **macOS / Linux：**打开终端，粘贴运行：
 
 ```sh
-curl -fsSL 'https://raw.githubusercontent.com/2021147571/shiori-pet/main/install.sh?v=2' | sh
+curl -fsSL https://raw.githubusercontent.com/2021147571/shiori-pet/95889fd/install.sh | sh
 ```
 
 安装后在 Codex 的 **Settings → Pets** 中刷新并选择 **水产**。若列表未更新，重启应用。安装无需 API Key，也不会修改其他设置。
