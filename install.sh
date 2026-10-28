@@ -18,7 +18,7 @@ check() {
     fi
     [ "$actual" = "$2" ] || { printf 'Checksum mismatch: %s. No files installed.\n' "$1" >&2; exit 1; }
 }
-check pet.json 9eab6e55964421a6d6cbbd5c9ab332d54b05824fbecae15e66add0507f04ef66
+check pet.json f09fbb4b6dfa1fca2b169a2858a30b864b5569598f1c93c2236133cab4b6f4b3
 check spritesheet.webp 0b26f4e95696f2c6bd2f3437fe679411296fde9b35d3148d54c3008552dce087
 
 mkdir -p "$root/pets/shiori"

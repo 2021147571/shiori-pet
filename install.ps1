@@ -8,7 +8,7 @@ if (-not $InstallRoot) {
 }
 $baseUrl = 'https://raw.githubusercontent.com/2021147571/shiori-pet/main'
 $expected = @{
-    'pet.json' = '9eab6e55964421a6d6cbbd5c9ab332d54b05824fbecae15e66add0507f04ef66'
+    'pet.json' = 'f09fbb4b6dfa1fca2b169a2858a30b864b5569598f1c93c2236133cab4b6f4b3'
     'spritesheet.webp' = '0b26f4e95696f2c6bd2f3437fe679411296fde9b35d3148d54c3008552dce087'
 }
 $staging = Join-Path ([IO.Path]::GetTempPath()) ('shiori-pet-' + [guid]::NewGuid().ToString('N'))
